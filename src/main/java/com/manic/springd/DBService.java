@@ -1,4 +1,4 @@
-package com.manic;
+package com.manic.springd;
 
 import org.springframework.stereotype.Service;
 
@@ -10,7 +10,7 @@ public class DBService {
     public DBService(DB db) {
         this.db = db;
     }
-    String getData() {
+    public String getData() {
         return db.getData();
     }
 

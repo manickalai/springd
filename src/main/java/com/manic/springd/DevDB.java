@@ -1,4 +1,4 @@
-package com.manic;
+package com.manic.springd;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;
