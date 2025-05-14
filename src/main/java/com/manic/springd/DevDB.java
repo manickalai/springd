@@ -7,6 +7,6 @@ import org.springframework.stereotype.Component;
 @ConditionalOnProperty(name = "deploy.env", havingValue = "development")
 public class DevDB implements DB{
     public String getData() {
-        return "Dev Data";
+        return "Dev Data from git";
     }
 }
